@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-bottom: 3rem;
   margin-top: -8%;
 }
 
@@ -31,7 +30,7 @@
 .card__form {
   display: flex;
   flex-direction: column;
-  max-width: 60%;
+  width: 60%;
   position: relative;
   font-size: 20px;
   font-family: "Inter", sans-serif;
@@ -42,13 +41,14 @@
   background-color: rgba(62, 98, 223, 1);
 
   /* border: 0.5px solid rgb(151, 151, 151); */
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   border-radius: 8px;
   padding: 1%;
   margin-top: 30px;
-  width: 40%;
+  width: 25%;
+  height:2.5rem;
   color: white;
   /* Aligning button to center
   justify-content: center;
@@ -120,25 +120,25 @@
     justify-content: center;
     position: relative;
     margin-bottom: 3rem;
-    margin-left: 10%;
 
   }
   .card__form {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
+    width: 100% !important;
     position: relative;
-    font-size: 16px;
-    margin-left: 16px;
+    font-size: 10px;
+    margin-left: 5%;
     font-family: "Inter", sans-serif;
     font-weight: 400;
   }
   .card__front {
-    width: 80%;
+    width: 85%;
     height: 80%;
     padding-left: 10px;
     padding-bottom: 10px;
     box-shadow: none;
+    margin: 0 !important;
 
   }
   .card__front{
@@ -146,30 +146,24 @@
   }
 
   .card__button {
-    width: 50%;
+    width: 30%;
+    height: 2.0rem;
     margin-top: 25px;
     /* margin-left: 16px; */
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .card__input {
-    width: 200px;
+    width: 85%;
     /* margin-left: 16px; */
   }
 
   .card__inputemail {
-    width: 200px;
+    width: 85%;
     /* margin-left: 16px; */
   }
 
-  .card__inputemail::placeholder{
-    padding: 10px;
-    font-size: small;
-  }
-  .card__input::placeholder{
-    padding: 10px;
-    font-size: small;
-  }
+ 
 
 }
 
