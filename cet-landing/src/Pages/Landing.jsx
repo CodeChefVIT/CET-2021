@@ -30,20 +30,6 @@ export default function Landing() {
             </button>
           </div>
         </section>
-        {/* <div className="container">
-          <div className="CTA text-center my-auto px-2 pt-24">
-            <h2 className="">
-              Explore more than 100 clubs, teams & chapters on{" "}
-              <p className="bold text-white focus-word">
-                {" "}
-                Common <span className="text-cchover">Entry</span> Test
-              </p>
-            </h2>
-            <button className="bg-ccblue pl-4 pr-4 pt-2 pb-2 mx-auto ease-in rounded-lg transition-all hover:bg-cchover">
-              <a href="/home">Register</a>
-            </button>
-          </div>
-        </div> */}
       </section>
       <div className="landing-image">
         <section className="features">
@@ -97,7 +83,7 @@ export default function Landing() {
             </div>
           </div>
         </section>
-        <section className="home-partners">
+        <section className="home-partners" id="partners">
           <Partners />
           <div
             className="content1"
@@ -113,7 +99,7 @@ export default function Landing() {
             </div>
           </div>
         </section>
-        <section className="home-contact">
+        <section className="home-contact" id="contact">
           <Contact />
           <ContactForm />
         </section>

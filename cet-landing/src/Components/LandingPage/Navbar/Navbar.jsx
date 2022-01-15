@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import './Navbar.css'
+import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,31 +25,34 @@ function NavBar() {
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4 navitems" >
                                     <a
-                                        href="https://projects.codechefvit.com"
+                                        href="#"
+                                        className="hover:bg-cchover text-white px-3 py-2 rounded-md text-lg font-medium"
+                                        style={{ fontFamily: 'Inter' }}>
+                                        Home
+                                        <Link to="#" />
+                                    </a>
+                                    <a
+                                        href="#about"
                                         className="hover:bg-cchover text-white px-3 py-2 rounded-md text-lg font-medium"
                                         style={{ fontFamily: 'Inter' }}>
                                         About
+                                        <Link to="#about" />
                                     </a>
 
                                     <a
-                                        href="https://projects.codechefvit.com"
-                                        className="hover:bg-cchover text-white px-3 py-2 rounded-md text-lg font-medium"
-                                        style={{ fontFamily: 'Inter'}}>
-                                        Blog
-                                    </a>
-
-                                    <a
-                                        href="https://projects.codechefvit.com"
+                                        href="#partners"
                                         className="hover:bg-cchover text-white px-3 py-2 rounded-md text-lg font-medium"
                                         style={{ fontFamily: 'Inter' }}>
                                         Partners
+                                        <Link to="#partners" />
                                     </a>
 
                                     <a
-                                        href="https://projects.codechefvit.com"
+                                        href="#contact"
                                         className="hover:bg-cchover text-white px-3 py-2 rounded-md text-lg font-medium"
                                         style={{ fontFamily: 'Inter' }}>
                                         Contact Us
+                                        <Link to="#contact" />
                                     </a>
                                 </div>
                             </div>
@@ -113,28 +117,27 @@ function NavBar() {
                         <div className="md:hidden" id="mobile-menu">
                             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                                 <a
-                                    href="https://projects.codechefvit.com"
+                                    href="https://cet.codechefvit.com"
+                                    className="font-bold hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                                >
+                                    Home
+                                </a>
+                                <a
+                                    href="/about"
                                     className="font-bold hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     About
                                 </a>
 
                                 <a
-                                    href="https://codechefvit.com/events"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                                >
-                                    Blog
-                                </a>
-
-                                <a
-                                    href="https://codechefvit.com/webinars"
+                                    href="/partners"
                                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Partners
                                 </a>
 
                                 <a
-                                    href="https://medium.com/codechef-vit"
+                                    href="/contactus"
                                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Contact Us

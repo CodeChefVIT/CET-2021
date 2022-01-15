@@ -3,9 +3,9 @@ import "./PartnerCard.css";
 
 export default function PartnerCard(props) {
   return (
-    <div class="partner-card lg:m-8">
+    <div className="partner-card lg:m-8">
       <div
-        class="partner-desc"
+        className="partner-desc"
         style={{
           textAlign: "center",
           alignItems: "center",
@@ -13,12 +13,12 @@ export default function PartnerCard(props) {
           color: "#fff",
         }}
       >
-        <div class="partner-desc__title">
+        <div className="partner-desc__title">
           <h4>
             {props.title}
           </h4>
         </div>
-        <div class="partner-desc__subtitle">
+        <div className="partner-desc__subtitle">
           <p>{props.description}</p>
         </div>
       </div>
