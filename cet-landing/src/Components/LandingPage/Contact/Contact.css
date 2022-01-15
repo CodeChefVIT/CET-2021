@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+.section {
+  height: 350px;
+  width: max-width;
+}
+
+.aboutcontent {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutcontent .ourprojects {
+  font-family: "Inter", sans-serif;
+  margin: 60px auto;
+  padding-bottom: 4px;
+  border-radius: 2px;
+  width: max-content;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.aboutcontent .partnership {
+  margin: -30px auto;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    height: 375px;
+    width: max-width;
+  }
+
+  .aboutcontent .ourprojects {
+    font-family: "Inter", sans-serif;
+    margin: 60px auto;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    width: max-content;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .aboutcontent .partnership{
+    margin: -7% 1em 1em 1.5em;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    color: rgba(255, 255,255,0.8);
+    display: flex;
+    align-items: center;
+    text-align: center;           
+    }
+}

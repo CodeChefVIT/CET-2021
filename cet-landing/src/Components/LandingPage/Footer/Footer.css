@@ -1,0 +1,351 @@
+section.footer {
+    background: linear-gradient(135.71deg, rgba(0, 0, 0, 0.21) 24.69%, #06559D 264.38%);
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 1px solid #f5f5f540;
+}
+
+.footer-logo{
+    height: 32px;
+}
+
+.footerDiv img {
+    margin-left: 9%;
+    margin-top: 44px;
+}
+
+.footerContentDiv {
+    display: flex;
+    align-items: centers;
+    margin-left: 9%;
+    margin-right: 2%;
+    margin-top: 48px;
+}
+
+.footerContentTextDiv {
+    width: 50%;
+}
+
+.footerContentText {
+    color: white;
+    font-size: 20px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+}
+
+.footerLinksContainerDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px 0px 96px;
+}
+
+.footerLinksDiv {
+    display: flex;
+}
+
+.footerLinksDiv li {
+    display: inline-block;
+    padding-bottom: 32px;
+    list-style-type: none;
+    margin-right: 56px;
+}
+
+.footerLinksDiv a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footerLineBreak {
+    background-color: white;
+    width: 85%;
+    height: 1px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+}
+
+.footerBottom {
+    display: flex;
+    width: 100%;
+}
+
+.footerBottomCopyrightDiv {
+    width: 100%;
+    margin-top: 16px;
+    margin-left: 8.5%;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.footerBottomCopyrightDiv img {
+    width: 10px;
+    margin-top: 0px;
+    padding: 0px;
+    margin-right: 4px;
+}
+
+.footerBottomCopyrightDiv span {
+    color: white;
+    margin-left: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+}
+
+.footerSocials {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 16px;
+    margin-left: 0;
+    margin-bottom: 8px;
+    width: 100%;
+    margin-right: 6%;
+}
+
+.footerSocials a img {
+    margin-top: 0px;
+    padding: 0px;
+    width: 20px;
+}
+
+.footerSocials a {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/* Responsive styles */
+
+@media only screen and (max-width:1280px) {
+    .footerLinksDiv a {
+        font-size: 18px;
+    }
+    .footerLinksDiv li {
+        margin-right: 50px;
+    }
+    .footerContentText {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1172px) {
+    .footerContentDiv {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width:1146px) {
+    .footerLinksContainerDiv {
+        margin: 32px 0px 0px 64px;
+    }
+    .footerLinksDiv a {
+        font-size: 16px;
+    }
+    .footerLinksDiv li {
+        margin-right: 40px;
+    }
+    .footerContentText {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:936px) {
+    .footerLinksContainerDiv {
+        margin: 20px 0px 0px 48px;
+    }
+    .footerLinksDiv a {
+        font-size: 14px;
+    }
+    .footerLinksDiv li {
+        margin-right: 32px;
+    }
+    .footerContentText {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:880px) {
+    .footerBottom {
+        flex-direction: column-reverse;
+    }
+    .footerSocials {
+        justify-content: center;
+        align-items: center;
+    }
+    .footerBottomCopyrightDiv {
+        justify-content: center;
+        align-items: center;
+        margin-left: 1%;
+    }
+}
+
+@media only screen and (max-width:776px) {
+    .footerContentDiv {
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0%;
+    }
+    .footerContentTextDiv {
+        width: 100%;
+        padding-right: 16px;
+    }
+    .footerLinksContainerDiv {
+        margin: 20px 16px 0px 0px;
+    }
+    .footerLinksDiv li {
+        margin-right: 140px;
+        padding-bottom: 20px;
+    }
+    .SecondRow li {
+        margin-right: 128px;
+    }
+    li.footerLinkLast {
+        margin-right: 0px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:645px) {
+    .footerLinksDiv a {
+        font-size: 12px;
+    }
+    .footerContentText {
+        font-size: 12px;
+    }
+    .footerLinksDiv li {
+        margin-right: 120px;
+        padding-bottom: 20px;
+    }
+    .SecondRow li {
+        margin-right: 110px;
+    }
+    li.footerLinkLast {
+        margin-right: 0px;
+        padding-right: 0;
+    }
+    .footerBottomCopyrightDiv {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .footerLinksDiv a {
+        font-size: 12px;
+    }
+    .footerContentText {
+        font-size: 12px;
+    }
+    .footerLinksDiv li {
+        margin-right: 110px;
+        padding-bottom: 20px;
+    }
+    .SecondRow li {
+        margin-right: 100px;
+    }
+    li.footerLinkLast {
+        margin-right: 0px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:525px) {
+    .footerLinksDiv a {
+        font-size: 10px;
+    }
+    .footerContentText {
+        font-size: 10px;
+    }
+    .footerLinksDiv li {
+        margin-right: 80px;
+        padding-bottom: 20px;
+    }
+    .SecondRow li {
+        margin-right: 70px;
+    }
+    li.footerLinkLast {
+        margin-right: 0px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:405px) {
+    .footerLinksDiv li {
+        margin-right: 64px;
+        padding-bottom: 20px;
+    }
+    .SecondRow li {
+        margin-right: 54px;
+    }
+    li.footerLinkLast {
+        margin-right: 0px;
+        padding-right: 0;
+    }
+    .footerSocials a img {
+        width: 14px;
+    }
+    .footerBottomCopyrightDiv {
+        margin-top: 16px;
+    }
+    .footerBottomCopyrightDiv span {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width:370px) {
+    .footerLinksDiv a {
+        font-size: 8px;
+    }
+    .footerContentText {
+        font-size: 8px;
+    }
+    .footerLinksDiv li {
+        margin-right: 48px;
+        padding-bottom: 20px;
+    }
+    .SecondRow li {
+        margin-right: 38px;
+    }
+    li.footerLinkLast {
+        margin-right: 0px;
+        padding-right: 0;
+    }
+    .footerSocials a img {
+        width: 12px;
+    }
+    .footerBottomCopyrightDiv span {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .footerLinksDiv a {
+        font-size: 8px;
+    }
+    .footerContentText {
+        font-size: 8px;
+    }
+    .footerLinksDiv li {
+        margin-right: 48px;
+        padding-bottom: 20px;
+    }
+    .SecondRow li {
+        margin-right: 38px;
+    }
+    li.footerLinkLast {
+        margin-right: 0px;
+        padding-right: 0;
+    }
+    .footerSocials a img {
+        width: 12px;
+    }
+    .footerBottomCopyrightDiv span {
+        font-size: 10px;
+    }
+}

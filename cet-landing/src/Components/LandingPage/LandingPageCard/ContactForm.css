@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap%22");
+
+.card {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 3rem;
+  margin-top: -8%;
+}
+
+.card__front {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+  padding-left: 32px;
+  padding-bottom: 50px;
+  justify-content: center;
+  background-color: rgba(52, 60, 72, 1);
+  margin: 40px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 25px 25px 0 rgba(37, 45, 58, 0.65);
+  transition: ease-in;
+  transition-duration: 0.2s;
+}
+
+
+
+.card__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  position: relative;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.card__button {
+  background-color: rgba(62, 98, 223, 1);
+
+  /* border: 0.5px solid rgb(151, 151, 151); */
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 1%;
+  margin-top: 30px;
+  width: 40%;
+  color: white;
+  /* Aligning button to center
+  justify-content: center;
+  align-items: center;
+  margin-top: 5% !important;
+  margin: auto; */
+}
+
+.card__button:hover {
+  background-color: rgba(23, 153, 225, 1);
+
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+}
+
+.card__input {
+  background-color: transparent;
+  padding: 0.5rem 0.75rem;
+  border: 1.75px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  height: 150px;
+  outline: none;
+  color: white;
+  resize: none;
+  font-size: 1rem;
+}
+
+.card__input:focus {
+  border: 1px solid rgba(192, 192, 192, 0.5);
+  border: none;
+  color: #fff;
+  box-shadow: 0 0 5px #0084ff,
+              0 0 15px #494949;
+}
+.card__inputemail {
+  background-color: transparent;
+  border: 1.75px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  height: 50px;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.card__inputemail:focus {
+  border: 1px solid rgba(192, 192, 192, 0.5);
+  border: none;
+  color: #fff;
+  box-shadow: 0 0 5px #0084ff,
+              0 0 15px #494949;
+}
+
+/* .content1 {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+} */
+.card__inputemail::placeholder{
+  font-size: 0.1px;
+}
+.card__input::placeholder{
+  font-size: 0.1px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+
+  }
+  .card__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    position: relative;
+    font-size: 16px;
+    margin-left: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  .card__front {
+    width: 80%;
+    height: 80%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    box-shadow: none;
+
+  }
+  .card__front{
+    margin-left: 10px;
+  }
+
+  .card__button {
+    width: 50%;
+    margin-top: 25px;
+    /* margin-left: 16px; */
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+  .card__input {
+    width: 200px;
+    /* margin-left: 16px; */
+  }
+
+  .card__inputemail {
+    width: 200px;
+    /* margin-left: 16px; */
+  }
+
+  .card__inputemail::placeholder{
+    padding: 10px;
+    font-size: small;
+  }
+  .card__input::placeholder{
+    padding: 10px;
+    font-size: small;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+    margin-top:-40%;
+  }
+}

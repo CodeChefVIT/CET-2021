@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+#parent {
+  position: relative;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 136px;
+  position: absolute;
+  top: 72px;
+  left: 38px;
+  border-radius: 8px;
+  background-color: rgba(52, 60, 72, 0.8);
+}
+
+.back {
+  width: 280px;
+  height: 176px;
+  border-radius: 8px;
+  background-color: rgba(37, 45, 58, 0.8);
+  /* opacity: 0.8; */
+}
+
+.title {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+
+  /* padding: 5px; */
+}
+
+.icon {
+  position: absolute;
+  left: 64px;
+  top: 38px;
+}
+
+.content1 {
+  width: auto;
+  height: 200px; 
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+footer{
+  background: #050505 !important;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* .App__row{
+  display: flex;
+  justify-content: center;
+}
+
+.App__column{
+  display: flex;
+  flex-direction: column !important;
+}
+
+@media (max-width:690px){
+  .App__row{
+    justify-content: center;
+    flex-direction: column !important;
+  }
+
+  .App__column{
+    display: grid;
+    grid-template-rows: repeat(2);
+    flex-direction: column !important;
+  }
+} */
+
