@@ -175,16 +175,11 @@ a{
   }
 }
 
-/* @media screen and (max-width:10px){
-  .container{
-    margin-left: 5.5rem !important;
-    margin-top: -8% !important;
+@media screen and (min-width:769px) and (max-width:1038px) {
+  .features{
+    height: 2000px;
   }
-}
 
-@media screen and (max-width:1000px){
-  .container{
-    margin-left: 5.5rem !important;
-    margin-top: -8% !important;
-  }
-} */
+  
+
+}

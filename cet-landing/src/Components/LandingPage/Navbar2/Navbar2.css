@@ -1,0 +1,77 @@
+nav {
+    top: 0;
+    right: 10%;
+    width: 100%;
+    height: 5rem;
+    background: transparent;
+    font-family: "Inter", sans-serif;
+}
+
+.CET-logo{
+    float: left;
+    margin : 1em 2.5em;
+}
+
+.list {
+    list-style-type: none;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-right: 1.25rem;
+}
+.items {
+    margin-right: 1.5rem;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.items > a{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 2.5%;
+    padding: 5px;
+    background-color: black;
+    
+    /* font-size: 18px; */
+}
+
+.btn > img {
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 768px){
+
+    nav{
+        background: rgba(0,0,0,0.7);
+    }
+
+    .list {
+        flex-direction: column;
+        height: auto;
+        background: rgba(0,0,0,0.7);
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .items {
+        width: 100%;
+        font-family: "Inter", sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+    }
+    .btn {
+        display: block;
+    }
+
+}

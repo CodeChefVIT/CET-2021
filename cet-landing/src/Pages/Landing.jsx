@@ -8,13 +8,14 @@ import Partners from "../Components/LandingPage/Partners/Partners";
 import Contact from "../Components/LandingPage/Contact/Contact";
 import PartnerCard from "../Components/LandingPage/PartnerCard/PartnerCard";
 import Footer from "../Components/LandingPage/Footer/Footer";
+import Navbar2 from "../Components/LandingPage/Navbar2/Navbar2";
 
 export default function Landing() {
   return (
     <>
       <section className="text-white hero">
         <div style={{}}>
-          <NavBar />
+          <Navbar2 />
         </div>
         <section className="showcase">
           <div className="container">
