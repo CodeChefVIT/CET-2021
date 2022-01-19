@@ -38,8 +38,8 @@
 }
 
 .card__button {
-  background-color: rgba(62, 98, 223, 1);
-
+ 
+  background-color: rgba(23, 153, 225, 1);
   /* border: 0.5px solid rgb(151, 151, 151); */
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -58,7 +58,7 @@
 }
 
 .card__button:hover {
-  background-color: rgba(23, 153, 225, 1);
+  background-color: rgba(62, 98, 223, 1);
 
   /* border: 1px solid rgba(255, 255, 255, 0.5); */
 }
