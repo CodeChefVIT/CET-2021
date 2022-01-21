@@ -2,13 +2,19 @@ import React from "react";
 import ContactForm from "../Components/LandingPage/LandingPageCard/ContactForm";
 import LandingPageCard from "../Components/LandingPage/LandingPageCard/LandingPageCard";
 import "./Landing.css";
-import NavBar from "../Components/LandingPage/Navbar/Navbar";
 import About from "../Components/LandingPage/AboutCET/About";
 import Partners from "../Components/LandingPage/Partners/Partners";
 import Contact from "../Components/LandingPage/Contact/Contact";
 import PartnerCard from "../Components/LandingPage/PartnerCard/PartnerCard";
 import Footer from "../Components/LandingPage/Footer/Footer";
 import Navbar2 from "../Components/LandingPage/Navbar2/Navbar2";
+import Deadline from "../Assets/deadlinetrack.png";
+import Explore from "../Assets/clubexplore.png";
+import Test from "../Assets/givetest.png";
+import Result from "../Assets/checkresult.png";
+import Guidance from "../Assets/one-oneguidance.png";
+import Interview from "../Assets/interview.png";
+
 
 export default function Landing() {
   return (
@@ -50,29 +56,29 @@ export default function Landing() {
                 <LandingPageCard
                   className="sm:pb-96"
                   title="Track deadlines"
-                  image="https://cdn.discordapp.com/attachments/897923657823846430/897923691193716826/uim_calender.png"
+                  image={Deadline}
                 />
                 <LandingPageCard
                   title="Explore clubs"
                   className="sm:pb-96"
-                  image="https://cdn.discordapp.com/attachments/897923657823846430/897923691193716826/uim_calender.png"
+                  image={Explore}
                 />
                 <LandingPageCard
                   title="Give test(s)"
                   className="sm:pb-96"
-                  image="https://cdn.discordapp.com/attachments/897923657823846430/897923691193716826/uim_calender.png"
+                  image={Test}
                 />
                 <LandingPageCard
                   title="Give interview(s)"
-                  image="https://cdn.discordapp.com/attachments/897923657823846430/897923691193716826/uim_calender.png"
+                  image={Interview}
                 />
                 <LandingPageCard
                   title="See results"
-                  image="https://cdn.discordapp.com/attachments/897923657823846430/897923691193716826/uim_calender.png"
+                  image={Result}
                 />
                 <LandingPageCard
                   title="One to one guidance"
-                  image="https://cdn.discordapp.com/attachments/897923657823846430/897923691193716826/uim_calender.png"
+                  image={Guidance}
                 />
               </div>
             </div>

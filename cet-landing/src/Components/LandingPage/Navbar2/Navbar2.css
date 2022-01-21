@@ -30,7 +30,12 @@ nav {
 
 .items > a{
     font-size: 1.2rem;
-    margin: 1rem;
+    padding: 1rem;
+}
+
+.items >a:hover{
+    background:#1799E1;
+    border-radius: 1.75rem;
 }
 
 .btn {
@@ -39,14 +44,13 @@ nav {
     right: 5%;
     top: 2.5%;
     padding: 5px;
-    background-color: black;
-    
+    /* background-color: #fff; */
     /* font-size: 18px; */
 }
-
+/* 
 .btn > img {
     background-color: #fff;
-}
+} */
 
 
 @media screen and (max-width: 768px){

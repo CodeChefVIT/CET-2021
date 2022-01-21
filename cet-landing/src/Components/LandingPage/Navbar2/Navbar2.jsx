@@ -33,8 +33,8 @@ export default function Navbar2() {
                         color: 'white',
                         fontFamily: 'Inter',
                         fontWeight: 'bold'
-                    }}>
-                        C<span className="text-cchover font-bold">E</span>T
+                    }} className="lg:text-3xl">
+                        C<span className="text-cchover font-bold ">E</span>T
                     </h1>
                 </a>
             </div>
@@ -50,7 +50,7 @@ export default function Navbar2() {
                 </ul>
             )}
 
-            <button onClick={toggleNav} className="btn"><img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" /></button>
+            <button onClick={toggleNav} className="btn"><img src="https://img.icons8.com/fluency/36/000000/menu--v1.png"/></button>
         </nav>
     )
 }
