@@ -1,9 +1,9 @@
 module.exports = {
-  purge: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './public/index.html'
-  ],
+  important: true,
+  //Purging for Production is configured in PostCSS Config
+  purge:{    
+    content: ["./src/**/*.html", "./src/**/*.jsx", "./src/**/*.js"],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens:{
