@@ -18,6 +18,18 @@
   justify-content: center;
 }
 
+.partner-card:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(
+    282.25deg,
+    rgba(2, 101, 240, 0.5) 10%,
+    rgba(1, 53, 124, 0.8) 60%
+  );
+  cursor: pointer;
+  
+}
+
 .partner-desc__title {
   font-family: "Inter", sans-serif;
   font-style: normal;

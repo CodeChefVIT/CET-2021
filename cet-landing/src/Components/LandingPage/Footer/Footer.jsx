@@ -7,6 +7,7 @@ import twitter from '../../../Assets/Logos/Twitter.svg'
 import youtube from '../../../Assets/Logos/YouTube.svg'
 import linkedin from '../../../Assets/Logos/LinkedIn.svg'
 import medium from '../../../Assets/Logos/Medium.svg'
+import github from '../../../Assets/Logos/Subtract.svg'
 import { Link } from 'react-router-dom'
 
 
@@ -28,7 +29,6 @@ export default function Footer() {
                                 <li><a href="#about" ><Link to="#about" />About</a></li>
                                 <li><a href="#partners"><Link to="#partners" />Partners</a></li>
                                 <li className="footerLinkLast"><a href="#contact"><Link to="#contact" />Contact</a></li>
-                                {/* <li className="footerLinkLast"><a href="/Projects/">Blog</a></li> */}
                             </ul>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export default function Footer() {
                         <a href="https://www.youtube.com/c/CodeChefVIT" target="_black"><img className="footerSocialImage" src={youtube} alt=" " /></a>
                         <a href="https://www.instagram.com/codechefvit/" target="_black"><img className="footerSocialImage" src={instagram} alt=" " /></a>
                         <a href="https://medium.com/codechef-vit" target="_black"><img className="footerSocialImage" src={medium} alt=" " /></a>
-                        {/* <a href="https://github.com/CodeChefVIT" target="_black"><img class="footerSocialImage" src="../Images/Socials/github.png " alt=" "/></a> */}
+                        <a href="https://github.com/CodeChefVIT" target="_black"><img class="footerSocialImage" src={github} alt=" " /></a>
                     </div>
                 </div>
             </div>
