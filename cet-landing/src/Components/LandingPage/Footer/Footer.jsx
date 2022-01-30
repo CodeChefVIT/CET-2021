@@ -38,7 +38,7 @@ export default function Footer() {
                 <div className="footerBottom">
                     <div className="footerBottomCopyrightDiv">
 
-                        <span>&copy; Copyright 2021 | CodeChef-VIT | All rights reserved.</span>
+                        <span>&copy; Copyright 2022 | CodeChef-VIT | All rights reserved.</span>
                     </div>
                     <div className="footerSocials">
                         <a href=" https://www.facebook.com/codechefvit/ " target="_black"><img className="footerSocialImage" src={facebook} alt=" " /></a>
