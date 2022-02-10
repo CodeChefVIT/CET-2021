@@ -25,20 +25,20 @@ export default function Landing() {
         </div>
         <section className="showcase">
           <div className="container">
-            <h2 className="heading1">
-              Explore more than{" "}
-              <span className="yellow">100 clubs, teams & chapters </span>{" "}
+            <h1 className="heading1">
+              Recruitments are over :(
+              {/* <span className="yellow">100 clubs, teams & chapters </span>{" "}
               <br /> on Common{" "}
-              <span className="text-cchover font-bold">Entry</span> Test{" "}
-            </h2>
+              <span className="text-cchover font-bold">Entry</span> Test{" "} */}
+            </h1>
 
-            <button className="bg-cchover hover:bg-ccblue text-white mx-10 font-bold py-4 px-8 rounded">
+            {/* <button className="bg-cchover hover:bg-ccblue text-white mx-10 font-bold py-4 px-8 rounded">
               <a href="http://cet-portal.codechefvit.com" target="_blank" rel="noreferrer" className="text-xl">Register Now!</a>
-            </button>
+            </button> */}
           </div>
         </section>
       </section>
-      <div className="landing-image">
+      {/* <div className="landing-image">
         <section className="features">
           <About />
           <div
@@ -110,8 +110,8 @@ export default function Landing() {
           <Contact />
           <ContactForm />
         </section>
-      </div>
-      <Footer />
+      </div> */}
+      {/* <Footer /> */}
     </>
   );
 }
